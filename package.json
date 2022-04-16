@@ -1,0 +1,20 @@
+{
+  "name": "login_application",
+  "version": "1.0.0",
+  "description": "Login application using Nodejs, express and mongoDB ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Harshith VH",
+  "license": "MIT",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15",
+    "popups": "^1.1.3"
+  }
+}
