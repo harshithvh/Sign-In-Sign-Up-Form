@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: false }))
 app.set('view engine', 'ejs')
 
 // connect to mongoDB
-const dbURI = 'mongodb+srv://db-Test:test123@cluster0.jsigv.mongodb.net/node-tuts?retryWrites=true&w=majority'
+const dbURI = 'URL'
  
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
    .then(() => {
